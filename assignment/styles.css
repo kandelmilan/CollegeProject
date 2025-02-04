@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #444;
+    color: white;
+}
+
+/* Background Colors for Subjects */
+.hpp { background-color: orange; font-weight: bold; }
+.daa { background-color: blue; color: white; font-weight: bold; }
+.sro { background-color: navy; color: white; font-weight: bold; }
+.crypto { background-color: yellow; font-weight: bold; }
+.web { background-color: green; color: white; font-weight: bold; }
+.dk { background-color: darkgreen; color: white; font-weight: bold; }
+.sad { background-color: gray; color: white; font-weight: bold; }
+.nst { background-color: black; color: white; font-weight: bold; }
+.elective { background-color: white; color: black; font-weight: bold; }
+.brl { background-color: lightblue; font-weight: bold; }
+
+/* Styling for the Break Cell */
+td[rowspan="15"] {
+    background-color: #ddd;
+    font-weight: bold;
+    writing-mode: vertical-rl;
+    text-align: center;
+}
+
+/* Faculty Table */
+table:last-of-type {
+    width: 70%;
+}

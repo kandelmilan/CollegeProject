@@ -1,0 +1,6 @@
+command + p
+command + b
+command + l for selecting the line
+cmd + d for selecting word
+
+
