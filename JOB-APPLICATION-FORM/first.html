@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Job Application form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="container">
+      <form>
+        <div>
+          <h1>JOB APPLICATION FORM</h1>
+          <p>Codeshala Tech Pvt Lmt</p>
+        </div>
+        <section>
+          <h2>Personal Information</h2>
+          <!-- first form Row start -->
+          <div class="form-row">
+            <div class="form-element">
+              <label>First Name</label>
+              <input type="text" />
+            </div>
+            <div class="form-element">
+              <label>Last Name</label>
+              <input type="text" />
+            </div>
+          </div>
+          <!-- first form Row end -->
+          <!-- Second form Row start -->
+          <div class="form-row">
+            <div class="form-element">
+              <label>Email Address</label>
+              <input type="email" />
+            </div>
+            <div class="form-element">
+              <label>Phone number</label>
+              <input type="tel" />
+            </div>
+          </div>
+          <!-- Second form Row end -->
+
+          <!-- third form Row start -->
+          <div class="form-row">
+            <div class="form-element w-full">
+              <label>Current Address</label>
+              <textarea></textarea>
+            </div>
+          </div>
+
+          <!-- third form Row end -->
+        </section>
+
+        <hr />
+
+        <section>
+          <h2>Professional Information</h2>
+
+          <div class="form-row">
+            <div class="form-element w-full">
+              <label for="postion applied"> Position Applied </label>
+              <select>
+                <option>Frontent Developer</option>
+                <option>Backend Developer</option>
+                <option>Full-stack Developer</option>
+                <option>cloud-stack Developer</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-element w-full">
+              <label for="Years of Experience">Years of Experience</label>
+              <input type="number" />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-element w-full">
+              <label for="Upload Resume">Upload Resume</label>
+              <input type="file" id="Upload" />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-element w-full">
+              <label for="employment type">Employment Type</label>
+
+              <div class="radio-group">
+                <div class="radio">
+                  <label for="Full-Time">Full Time</label>
+                  <input type="radio" name="Employment Type" id="Full-Time" />
+                </div>
+
+                <div class="radio">
+                  <div class="radio-group">
+                    <label for="Part-Time">Part Time</label>
+
+                    <input type="radio" name="Employment Type" id="Part-Time" />
+                  </div>
+                </div>
+
+                <div class="radio">
+                  <div class="radio-group">
+                    <label for="Full-Stack">Full Stack</label>
+                    <input
+                      type="radio"
+                      name="Employment Type"
+                      id="Full-Stack"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-element w-full">
+              <label for="Skills">Skills(Check all that aplly)</label>
+              <div class="checkbox-group">
+                <div class="checkbox">
+                  <input type="checkbox" name="Skills" id="HTML" />
+                  <label for="HTML">HTML</label>
+                </div>
+
+                <div class="checkbox">
+                  <input type="checkbox" name="Skills" id="CSS" />
+                  <label for="CSS">CSS</label>
+                </div>
+
+                <div class="checkbox">
+                  <input type="checkbox" name="Skills" id="JavaScript" />
+                  <label for="JavaScript">JavaScript</label>
+                </div>
+
+                <div class="checkbox">
+                  <input type="checkbox" name="Skills" id="React" />
+                  <label for="React">React</label>
+                </div>
+
+                <div class="checkbox">
+                  <input type="checkbox" name="Skills" id="Node.js" />
+                  <label for="Node.js">Node.js</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2>Additional Information</h2>
+
+          <div class="form-row">
+            <div class="form-element w-full">
+              <div class="Date">
+                <label for="Available">Available Start Date</label>
+                <input type="date" name="" id="Available" />
+              </div>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-element w-full">
+              <div class="Salary">
+                <label for="Salary">Expected Salary Range</label>
+                <input type="range" name="salary" id="salary" />
+              </div>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-element w-full">
+              <label for="Comments">Additional Comments</label>
+              <textarea
+                name="Comments"
+                id="Comments"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+          </div>
+        </section>
+
+        <hr />
+        <br />
+        <br />
+        <hr />
+        <section>
+          <div class="form-row">
+            <div class="form-element w-full">
+              <input type="radio" name="Condition" id="condition" />
+              <label for="condition"
+                >I agree to the terms and conditions.</label
+              >
+            </div>
+          </div>
+
+          <div class="button-container">
+            <button class="reset">Reset Form</button>
+            <button class="submit">Submit Application</button>
+          </div>
+        </section>
+      </form>
+    </div>
+  </body>
+</html>

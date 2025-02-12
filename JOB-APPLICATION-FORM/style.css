@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+html{
+    font-size: 16px;
+}
+body{
+    background-color: #f4f4f4;
+    color: #111;
+    font-family: 'poppins','serif';
+}
+#container{
+    width:1000px;
+    background-color: white;
+    margin: 20px auto;
+    padding: 30px;
+    box-shadow: 0px 0px 5px 2px rgb(0, 0, 0,0.1);
+    /* hori , vertical , opacity  */
+    border-radius: 8px;
+}
+h1,p{
+    text-align: center;
+}
+p{
+    color: gray;
+    margin-top: 8px;
+}
+/* personal infromation section */
+h2{
+    margin: 10px 0px;
+}
+/* first form row */
+.form-row{
+    margin: 20px;
+    margin-right: 10px;
+}
+.form-element{
+     width: 49%;
+    display: inline-block;
+
+
+}
+label,input,select{
+    display: block;
+}
+input[type=text],input[type=email],input[type=file],input[type=Number],input[type=tel],input[type=date],textarea,select{
+    width: 100%; 
+    padding: 12px 15px;
+    border: 1px solid #f1f1f1;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+.w-full{
+    width: 100%;
+}
+/* NFT preview card component... */
+hr{
+    color: #aaa;
+    border: 1px solid #f1f1f1;
+}
+input[type=file]{
+    border: 1px dashed #aaa;
+}
+.radio{
+    display: inline-block;
+    margin-right: 20px;
+
+}
+.radio-group{
+    margin-top: 10px;
+}
+.radio input,.radio label{
+    display: inline-block;
+}
+
+.checkbox input,.checkbox label{
+    display: inline-block;
+} 
+
+.checkbox-group{
+    /* display: inline-block; */
+    margin-top: 10px;
+}
+.checkbox{
+    display: inline-block;
+}
+.Date{
+    margin-top: 10px;
+}
+/* .Salaryrange{
+    display: inline-block;
+}
+.range input{
+    display: inline-block;
+}     */
+input[type=range] {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #f1f1f1;
+    border-radius: 3px;
+    margin-top: 10px;
+    background: #fff;
+    cursor: pointer;
+}
+#condition{
+    display: inline;
+    text-align:right;
+
+}
+.button-container {
+    text-align: right;
+  }
+  
+  .button-container button {
+    display: inline-block;
+    padding: 10px 20px;
+    
+  }
+  
+  .reset {
+    background-color: #aaa;
+    color: #fff;
+    border-radius: 10px;
+  }
+  
+  .submit {
+    background-color: #4e6dd5;
+    color: #fff;
+    border-radius: 10px;
+  }
+  
