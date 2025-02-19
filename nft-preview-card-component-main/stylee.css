@@ -1,0 +1,92 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 18px;
+
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: "outfit","senrif"; 
+    color: hsl(215, 51%, 70%);
+}
+.card{
+    width: 400px;
+    background-color: hsl(216, 50%, 16%);
+    margin:50px auto;
+    padding: 25px;
+    border-radius: 10px;
+}
+.card figure img{
+    border-radius: 10px;
+    width: 100%;
+    /* padding: 25px; */
+
+}
+.card-heading{
+    color: hsl(0, 0%, 100%);
+
+}
+.card-heading:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.card-description{
+    margin: 20px 0;
+}
+.card-text{
+    margin: 20px 0;
+    line-height: 1.7;
+}
+.card-price{
+
+}
+.card-amount,.card-offer{
+    display: inline-block;
+    width: 49%;
+
+}
+.card-offer{
+    text-align: right;
+    margin-bottom: 20px;
+
+
+}
+.card-amount{
+    color:  hsl(178, 100%, 50%);
+}
+hr{
+    border: 1px solid hsl(215, 32%, 27%) ;
+}
+.card-footer img{
+    margin-top: 8px;
+    width :30px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius:50% ;
+    vertical-align: middle;
+
+}
+.footer-text span{
+    color: hsl(0, 0%, 100%);
+    
+
+}
+.card-footer
+.footer-text{
+    vertical-align: middle;
+}
+@media (min-width:375px)and(max-width:500px){
+    body {
+        padding: 20px;
+    }
+    .card{
+        width: 100%;
+    }
+}
+.author:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
