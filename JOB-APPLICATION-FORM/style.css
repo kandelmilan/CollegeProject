@@ -89,12 +89,7 @@ input[type=file]{
 .Date{
     margin-top: 10px;
 }
-/* .Salaryrange{
-    display: inline-block;
-}
-.range input{
-    display: inline-block;
-}     */
+
 input[type=range] {
     width: 100%;
     padding: 12px 15px;
